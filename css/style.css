@@ -553,6 +553,7 @@ a:focus {
   color: #00bbf0;
 }
 
+
 .why_section .box {
   margin-top: 45px;
   display: -webkit-box;
@@ -566,11 +567,11 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  /* background-color: #000000; */
+  background-color: #000000;
   background-color: #00204a;
   background-color: #ffffff;
   border: 1px solid #ddd; 
-  /* color: #00bbf0; */
+  /* background-color: black; */
 }
 
 .why_section .box .img-box {
@@ -598,27 +599,40 @@ a:focus {
   width: 55px;
   height: auto;
   fill: #00204a;
+  /* color:#0f054c; */
  
 }
+/* .why_container.box.img-box.detail-box p{
+  background-color: #00bbf0;
+} */
 
 .why_section .box h5 {
   font-weight: bold;
   margin-bottom: 10px;
   /* background-color: #fefefe; */
-  background-color:#00204a;
-  /* color:#00bbf0; */
+  /* background-color:#00204a; */
+  color:#00bbf0;
   color: #00204a;
   font-size: 18px;
   line-height: 24px;
+  /* background-color: #0f054c; */
 
   
 }
 
 .why_section .box p {
   margin-bottom: 0;
-  /* background-color:#fefefe;  */
-  background-color: white;
+  background-color:white; 
+  /* background-color:#0f054c; */
+  
 }
+.why_container.box.img-box.detail-box{
+ color: #007fa4;
+}
+
+/* .detail-box p{
+ background-color: #0f054c;
+} */
 
 .why_section .btn-box {
   display: -webkit-box;
@@ -634,7 +648,7 @@ a:focus {
   display: inline-block;
   padding: 10px 45px;
   background-color: #00bbf0;
-  color: #ffffff;
+  /* color: #ffffff; */
   border-radius: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
