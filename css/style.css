@@ -538,6 +538,8 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  /* background-color: #000000; */
+  background-color: #1A1A1D;
 }
 
 .why_section .box .img-box {
@@ -557,6 +559,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+         background-color: #fefefe;
 }
 
 .why_section .box .img-box img {
@@ -568,10 +571,13 @@ a:focus {
 .why_section .box h5 {
   font-weight: bold;
   margin-bottom: 10px;
+  background-color: #fefefe;
+  
 }
 
 .why_section .box p {
   margin-bottom: 0;
+  background-color:#fefefe; 
 }
 
 .why_section .btn-box {
@@ -678,6 +684,7 @@ a:focus {
 /* client section start */
 .client_section .heading_container {
   margin-bottom: 30px;
+  /* text-align: left; */
 }
 
 .client_section .box {
@@ -689,6 +696,7 @@ a:focus {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 15px;
+  /* text-align: left; */
 }
 
 .client_section .box .img-box {
@@ -775,18 +783,36 @@ a:focus {
 
 /* client section end */
 .info_section {
-  background-color: #00204a;
+  /* background-color: #00204a; */
+  background-color: #1A1A1D;
   color: #ffffff;
   padding: 45px 0 15px 0;
+  /* text-align: center; */
+  /* padding:50px 0 20px 0; */
+  /* flex-direction: column; */
+  text-align: left;
+  
+  
+  
 }
 
 .info_section h4 {
-  font-weight: 600;
+  /* font-weight: 600; */
+  font-weight: 900;
   margin-bottom: 20px;
+  text-align: center;
+
+  /* margin-bottom: 70px; */
+  width: 20px;
+  
 }
 
 .info_section .info_col {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  margin-bottom: 60px;
+  /* outline-width: 0cqmax; */
+max-width: fit-content;
+  
 }
 
 .info_section .info_contact .contact_link_box {
@@ -800,7 +826,7 @@ a:focus {
 }
 
 .info_section .info_contact .contact_link_box a {
-  margin: 5px 0;
+  /* margin: 5px 0; */
   color: #ffffff;
 }
 
@@ -879,6 +905,7 @@ a:focus {
 
 .info_section form input::-webkit-input-placeholder {
   color: #ffffff;
+  /* padding-right: 0cqmax; */
 }
 
 .info_section form input:-ms-input-placeholder {
@@ -898,6 +925,7 @@ a:focus {
   text-align: center;
   display: inline-block;
   padding: 10px 55px;
+  /* padding: 15px 55px; */
   background-color: #00bbf0;
   color: #ffffff;
   border-radius: 0;
@@ -912,15 +940,17 @@ a:focus {
 }
 
 /* footer section*/
+
 .footer_section {
-  position: relative;
-  background-color: #ffffff;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer_section p {
   color: #00204a;
-  padding: 25px 0;
+  /* padding: 25px 0; */
+  padding: 30px 0;
   margin: 0;
 }
 
