@@ -992,10 +992,10 @@ text-align: center;
   /* background-color: #00204a; */
   background-color: #6a1e55 ;
   color: #ffffff;
-  padding: 45px 0 15px 0;
+  /* padding: 45px 0 15px 0; */
   /* text-align: center; */
-  /* padding:50px 0 20px 0; */
-  /* flex-direction: column; */
+  padding:50px 0 20px 0;
+  flex-direction: column;
   text-align: left;
   display: grid;
   grid-template-columns: 1fr; 
@@ -1136,8 +1136,8 @@ text-align: center;
   width: 100%;
   text-align: center;
   display: inline-block;
-  padding: 10px 55px;
-  /* padding: 15px 55px; */
+  /* padding: 10px 55px; */
+  padding: 15px 55px;
   background-color: #00bbf0;
   color: #ffffff;
   border-radius: 0;
