@@ -105,3 +105,19 @@
     max-width: 1170px;
   }
 }
+ 
+/* General container styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  .container {
+    align-items: flex-start; /* Ensures consistent alignment like Address */
+    padding: 0 15px; /* Add padding for better spacing */
+  }
+}
